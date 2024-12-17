@@ -105,7 +105,7 @@ p {
 }
 
 .project_description {
-  padding: 120px 60px;
+  padding: 40px 60px;
 }
 
 .contact_email{
@@ -122,6 +122,39 @@ p {
   display: block;
   margin: 0 auto;
  }
+
+ .logo{
+  max-height: 76px;
+ }
+
+nav{
+padding: 10px;
+
+}
+
+ul{
+  padding: 0;
+  margin:0;
+}
+
+ li{
+  display:inline;
+  list-style: none;
+ line-height: 72px;
+ margin-left: 10px;
+ }
+
+ nav a{
+ text-decoration: none;
+ color: #272142;
+ opacity:80%;
+ transition: all 100ms ease-in-out;
+ }
+
+ nav a:hover, nav li.active a{
+  color: var(--branding-color);
+ }
+
 @media (max-width: 900px) {
   
   h1 {
@@ -149,5 +182,11 @@ p {
   .project_description {
     padding: 10px 10px;
     text-align: center;
+  }
+
+  nav a{
+    font-size: 14px;
+    margin: 0 auto;
+ 
   }
 }
