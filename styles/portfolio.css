@@ -69,7 +69,7 @@ p {
   font-family: var(--default-font-family);
 }
 
-.content h3{
+.content h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 1.2;
@@ -108,58 +108,57 @@ p {
   padding: 40px 60px;
 }
 
-.contact_email{
-  color:#272142;
+.contact_email {
+  color: #272142;
   text-decoration: none;
-  }
+}
 
- .contact_email:hover{
+.contact_email:hover {
   text-decoration: underline;
- } 
+}
 
- .contact_image{
+.contact_image {
   max-width: 300px;
   display: block;
   margin: 0 auto;
- }
+}
 
- .logo{
+.logo {
   max-height: 76px;
- }
-
-nav{
-padding: 10px;
-
 }
 
-ul{
+nav {
+  padding: 10px;
+}
+
+ul {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
 
- li{
-  display:inline;
+li {
+  display: inline;
   list-style: none;
- line-height: 72px;
- margin-left: 10px;
- }
+  line-height: 72px;
+  margin-left: 10px;
+}
 
- nav a{
- text-decoration: none;
- color: #272142;
- opacity:80%;
- transition: all 100ms ease-in-out;
- }
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 80%;
+  transition: all 100ms ease-in-out;
+}
 
- nav a:hover, nav li.active a{
+nav a:hover,
+nav li.active a {
   color: var(--branding-color);
- }
+}
 
 @media (max-width: 900px) {
-  
   h1 {
     font-size: 44px;
-    line-height:56px;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -184,9 +183,8 @@ ul{
     text-align: center;
   }
 
-  nav a{
+  nav a {
     font-size: 14px;
     margin: 0 auto;
- 
   }
 }
