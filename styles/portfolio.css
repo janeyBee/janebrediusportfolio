@@ -8,6 +8,7 @@
 body {
   font-family: var(--default-font-family);
 }
+
 h1,
 h2,
 h3,
@@ -54,28 +55,35 @@ p {
   color: #272142;
 }
 
-.about-section {
+.content_container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.5;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
   color: #272142;
   font-family: var(--default-font-family);
 }
 
-.about-section p {
+.content h3{
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+
+}
+
+.content p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.5;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
@@ -117,12 +125,12 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 10px;
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 48px;
     line-height: 1.2;
   }
