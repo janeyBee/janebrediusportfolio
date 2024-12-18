@@ -71,6 +71,8 @@ p {
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
+  color:#272142;
+  font-weight: normal;
 }
 
 .content h3 {
@@ -89,7 +91,12 @@ p {
 .content {
   margin: 0 30px;
 }
-
+.content .header_p{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
 .btn-branding {
   color: white;
   font-size: 18px;
@@ -201,26 +208,21 @@ footer .social_links a:hover{
 
 
 @media (max-width: 900px) {
-  h1 {
+  h1, .content h1 {
     font-size: 44px;
     line-height: 56px;
   }
+
   h2 {
     font-size: 44px;
   }
 
-  .hero {
+  .hero, .content-container {
     padding: 80px 20px;
   }
 
   .content {
     text-align: center;
-    padding: 10px;
-  }
-
-  .content h1 {
-    font-size: 48px;
-    line-height: 1.2;
   }
 
   .project_description {
@@ -228,8 +230,4 @@ footer .social_links a:hover{
     text-align: center;
   }
 
-  nav a {
-    font-size: 14px;
-    margin: 0 auto;
-  }
 }
