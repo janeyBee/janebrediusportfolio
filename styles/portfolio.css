@@ -28,7 +28,7 @@ h2 {
   font-size: 64px;
 }
 
-h4{
+h4 {
   font-size: 48px;
 }
 
@@ -61,17 +61,18 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content h1 {
   font-size: 64px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 1.5;
   font-family: var(--default-font-family);
-  color:#272142;
+  color: #272142;
   font-weight: normal;
 }
 
@@ -88,11 +89,9 @@ p {
   opacity: 70%;
 }
 
-.content {
-  margin: 0 30px;
-}
-.content .header_p{
+.content .header_p {
   font-size: 36px;
+  line-height: 30px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -138,6 +137,8 @@ p {
   max-height: 76px;
 }
 
+
+
 nav {
   padding: 10px;
 }
@@ -166,32 +167,32 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-footer{
-  margin: 60px 0
+footer {
+  margin: 60px 0;
 }
 
-footer .contact_box{
+footer .contact_box {
   background: var(--secondary-color);
   padding: 30px 120px;
-  border-radius:10px;
+  border-radius: 10px;
 }
 
-footer .contact_box p{
-  margin:0;
+footer .contact_box p {
+  margin: 0;
 }
 
-footer .email_link{
+footer .email_link {
   color: #000;
-  text-decoration:none;
+  text-decoration: none;
   font-size: 24px;
   transition: all 100ms ease-in-out;
 }
 
-footer .email_link:hover{
-  color:var(--branding-color);
+footer .email_link:hover {
+  color: var(--branding-color);
 }
 
-footer .social_links a{
+footer .social_links a {
   margin: 10px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -201,22 +202,24 @@ footer .social_links a{
   transition: all 100ms ease-in-out;
 }
 
-footer .social_links a:hover{
+footer .social_links a:hover {
   color: #fff;
   background: var(--branding-color);
 }
 
-.pete_container{
-    padding: 160px 20px;
+.disclaimer{
+  font-family: monospace;
+  font-size: 10px;
+  text-align: center;
 }
 
-.pete_container img{
-  display: block;
-  margin: 0 auto;
+.disclaimer a{
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
-  h1, .content h1 {
+  h1,
+  .content h1 {
     font-size: 44px;
     line-height: 56px;
   }
@@ -225,11 +228,13 @@ footer .social_links a:hover{
     font-size: 44px;
   }
 
-  .hero, .content-container, .pete_container {
-    padding: 80px 20px;
+  .hero,
+  .content-container,
+  .pete_container {
+    padding: 40px 20px;
   }
 
-  .content, .pete_container {
+  .content {
     text-align: center;
   }
 
