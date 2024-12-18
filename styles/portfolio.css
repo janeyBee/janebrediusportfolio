@@ -28,6 +28,10 @@ h2 {
   font-size: 64px;
 }
 
+h4{
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -159,18 +163,28 @@ footer{
   margin: 60px 0
 }
 
-.email_link{
+footer .contact_box{
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius:10px;
+}
+
+footer .contact_box p{
+  margin:0;
+}
+
+footer .email_link{
   color: #000;
   text-decoration:none;
   font-size: 24px;
   transition: all 100ms ease-in-out;
 }
 
-.email_link:hover{
+footer .email_link:hover{
   color:var(--branding-color);
 }
 
-.social_links a{
+footer .social_links a{
   margin: 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
@@ -180,7 +194,7 @@ footer{
   transition: all 100ms ease-in-out;
 }
 
-.social_links a:hover{
+footer .social_links a:hover{
   color: #fff;
   background: var(--branding-color);
 }
