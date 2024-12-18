@@ -83,7 +83,7 @@ p {
 
 .content p {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 30px;
   color: #272142;
   opacity: 70%;
 }
@@ -192,7 +192,7 @@ footer .email_link:hover{
 }
 
 footer .social_links a{
-  margin: 20px;
+  margin: 10px;
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px 17px;
@@ -206,6 +206,14 @@ footer .social_links a:hover{
   background: var(--branding-color);
 }
 
+.pete_container{
+    padding: 160px 20px;
+}
+
+.pete_container img{
+  display: block;
+  margin: 0 auto;
+}
 
 @media (max-width: 900px) {
   h1, .content h1 {
@@ -217,11 +225,11 @@ footer .social_links a:hover{
     font-size: 44px;
   }
 
-  .hero, .content-container {
+  .hero, .content-container, .pete_container {
     padding: 80px 20px;
   }
 
-  .content {
+  .content, .pete_container {
     text-align: center;
   }
 
